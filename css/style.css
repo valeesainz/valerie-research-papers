@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  header {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .paper {
+    margin-bottom: 30px;
+  }
+  
+  a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
