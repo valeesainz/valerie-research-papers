@@ -3,32 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>Research Papers</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Research Papers</h1>
-    <a href="index.html">← Back to Home</a>
-  </header>
 
-  <main>
+  <nav class="nav">
+    <div class="logo">Valerie Sainz</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+    </div>
+  </nav>
+
+  <main class="content">
+    <h1>Research Papers</h1>
+
     <section class="paper">
       <h2>Title of Paper One</h2>
-      <p><strong>Course:</strong> Latin American History</p>
+      <p class="meta">CS 401 — Distributed Systems</p>
       <p>
-        Short abstract describing the topic, methods, and conclusions.
+        Brief abstract explaining the research question, methodology,
+        and conclusions.
       </p>
-      <a href="papers/paper1.pdf" target="_blank">Download PDF</a>
+      <a class="text-link" href="papers/paper1.pdf" target="_blank">
+        Download PDF →
+      </a>
     </section>
 
     <section class="paper">
       <h2>Title of Paper Two</h2>
-      <p><strong>Course:</strong> Art History</p>
+      <p class="meta">CS 350 — Operating Systems</p>
       <p>
-        Brief explanation of what the paper investigates.
+        Short description of the paper’s technical focus.
       </p>
-      <a href="papers/paper2.pdf" target="_blank">Download PDF</a>
+      <a class="text-link" href="papers/paper2.pdf" target="_blank">
+        Download PDF →
+      </a>
     </section>
   </main>
+
 </body>
 </html>
